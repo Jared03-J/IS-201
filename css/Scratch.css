@@ -1,0 +1,71 @@
+/* Body styling and custom background color */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    color: #333333;
+  }
+  
+  /* Navigation bar */
+  .nav-bar {
+    background-color: #004080;
+    padding: 1em;
+  }
+  .nav-bar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Header section */
+  .header {
+    text-align: center;
+    padding: 2em 0;
+  }
+  .header h1 {
+    font-size: 2.5em;
+    color: #004080;
+  }
+  
+  /* Content styling */
+  .content {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  .content h2 {
+    font-family: 'Georgia', serif;
+    color: #006699;
+  }
+  
+  /* Gallery div */
+  .gallery {
+    text-align: center;
+    margin: 1em 0;
+  }
+  .gallery img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+  }
+  
+  /* Video div */
+  .video {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+  }
+  
+  /* Tableau viz container */
+  .viz-container {
+    margin: 2em 0;
+  }
+  
+  /* Back-to-top link */
+  .back-top {
+    display: block;
+    text-align: right;
+    margin-top: 2em;
+    font-family: 'Courier New', Courier, monospace;
+  }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scratch Page - My Travel Passion</title>
+  <link rel="Scratch" href="Scratch.css">
+</head>
+<link rel="stylesheet" href="css/Scratch.css">
+<body id="top">
+    <a href="index.html">home page</a>
+    <a href="webapp.html">Tik Tak Toe</a>
+  <nav class="nav-bar">
+    <a href="professional.html">&#8592; Back to Professional Pages</a>
+  </nav>
+
+  <div class="header">
+    <h1>My Passion: Traveling the World</h1>
+  </div>
+
+  <div class="content">
+    <h2>Top Bucket List Destinations</h2>
+    <ol>
+      <li>Europe
+        <ul>
+          <li>Paris, France</li>
+          <li>Rome, Italy</li>
+        </ul>
+      </li>
+      <li>Asia
+        <ul>
+          <li>Kyoto, Japan</li>
+          <li>Bali, Indonesia</li>
+        </ul>
+      </li>
+      <li>South America
+        <ul>
+          <li>Machu Picchu, Peru</li>
+          <li>Patagonia, Chile</li>
+        </ul>
+      </li>
+    </ol>
+
+    <h2 id="gallery">Picture Gallery</h2>
+    <div class="gallery">
+      <img src=".//assets/img/Me and Bella.jpeg" alt="5px">
+    </div>
+
+    <h2>Travel Vlog Highlight</h2>
+    <div class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Scxs7L0vhZ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <h2>Interactive Tableau Visualization</h2>
+    <div class="viz-container" id="viz1">
+      <!-- Tableau embed code start -->
+      <object class="tableauViz" width="800" height="600" style="display:none;">
+        <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+        <param name="embed_code_version" value="3" />
+        <param name="site_root" value="" />
+        <param name="name" value="RegionalSampleWorkbook/Storms" />
+        <param name="tabs" value="no" />
+        <param name="toolbar" value="yes" />
+        <param name="showAppBanner" value="false" />
+      </object>
+      <script type="text/javascript">
+        var divElement = document.getElementById('viz1');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        if (divElement.offsetWidth > 800) { vizElement.style.width='100%'; vizElement.style.height=(divElement.offsetWidth*3/4)+'px'; }
+        else if (divElement.offsetWidth > 500) { vizElement.style.width='100%'; vizElement.style.height=(divElement.offsetWidth*3/4)+'px'; }
+        else { vizElement.style.width='100%'; vizElement.style.height='600px'; }
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+      <!-- Tableau embed code end -->
+    </div>
+
+    <a class="back-top" href="#top">Back to Top &#8593;</a>
+  </div>
+</body>
+</html>
+</body>
+</html>
